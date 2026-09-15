@@ -1,4 +1,3 @@
-# -E-Commerce-Sales-Analysis-Using-SQL
 # 🛒 E-Commerce Sales Analysis Using SQL
 
 ## 📌 Project Overview
@@ -24,12 +23,6 @@ The relational structure comprises **4 primary tables** linked via primary and f
 ### Data Model Diagram
 ```text
 [customers] (1) ─── (N) [orders] (1) ─── (N) [order_items] (N) ─── (1) [products]
+````text
 
-### Key Business Insights & Findings
-*Top Revenue Drivers: The Technology category generates the highest aggregate sales, primarily driven by high individual unit costs.
 
-*Regional Profit Dynamics: The West region delivers the highest net profit margin, whereas select East/Central states show margin compression due to high   shipping discounts.
-
-*High-Volume Loss Leaders: Several high-volume products generate net losses despite strong total sales numbers, pointing to misaligned promotional pricing  or excessive returns.
-
-*Pareto Concentration: The top 10% of customers account for a disproportionate share of total revenue, highlighting the need for dedicated retention and    loyalty programs.
