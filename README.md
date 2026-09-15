@@ -23,6 +23,15 @@ The relational structure comprises **4 primary tables** linked via primary and f
 ### Data Model Diagram
 ```text
 [customers] (1) ─── (N) [orders] (1) ─── (N) [order_items] (N) ─── (1) [products]
-````text
+```
+## Strategic Business Insights
+* Top Revenue Generator: The Technology category generates the highest total sales across all regions, primarily driven by higher unit purchase prices.
+
+* Profitability Dynamics: The Western Region generates the highest cumulative net profit, while specific states in the Central region yield slimmer          margins due to heavy promotional discounting.
+
+* Loss Leaders: Detailed line-item filtering reveals that certain high-volume products consistently generate net losses, suggesting a need to adjust         discounting strategies or product bundling.
+
+* Customer Value Concentration: A minor tier of High-Value Customers contributes a majority share of total enterprise revenue, underscoring the importance   of target retention strategies.
+
 
 
